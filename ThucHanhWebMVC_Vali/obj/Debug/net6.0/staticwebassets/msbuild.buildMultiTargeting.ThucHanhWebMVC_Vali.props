@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ThucHanhWebMVC_Vali.props" />
+</Project>

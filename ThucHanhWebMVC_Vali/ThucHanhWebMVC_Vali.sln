@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThucHanhWebMVC_Vali", "ThucHanhWebMVC_Vali.csproj", "{11257F99-E12A-4356-BA29-D3B67253E760}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11257F99-E12A-4356-BA29-D3B67253E760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11257F99-E12A-4356-BA29-D3B67253E760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11257F99-E12A-4356-BA29-D3B67253E760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11257F99-E12A-4356-BA29-D3B67253E760}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8F49DBF-9876-49DC-B3D5-CC43984D189E}
+	EndGlobalSection
+EndGlobal

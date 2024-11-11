@@ -1,0 +1,25 @@
+﻿@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<TDanhMucSp>
+
+@{
+    ViewData["Title"] = "SanPhamTheoLoai";
+    Layout = "~/Views/Shared/_Layout_Organi.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    @await Html.PartialAsync("PartialSanPham", item)
+}
+
+<!-- Phân trang -->
+<div class="product__pagination">
+    <ul class="pagination">
+        @for (var i = 1; i <= Model.PageCount; i++)
+        {
+            var isActive = (i == Model.PageNumber) ? "active" : ""; // Kiểm tra trang hiện tại
+            <li class="page-item @isActive">
+                <a class="page-link" href="@Url.Action("SanPhamTheoLoai", new { maLoai = ViewData["MaLoai"], page = i })">@i</a>
+            </li>
+        }
+    </ul>
+</div>
